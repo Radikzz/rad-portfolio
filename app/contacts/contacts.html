@@ -1,0 +1,89 @@
+<!--Contact-->
+<div class="section-wrapper bg-my-contacts contact" id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-md-12 col-sm-12">
+
+                <div class="row">
+                    <div class="col-xs-12 col-md-7 col-sm-12">
+                        <div class="contact_wrap">
+                            <div>
+                                <h3 class="text-center">Обратная связь</h3>
+                            </div>
+                            <form name="myForm" method="" ng-submit="" class="form-horizontal margin_auto form-wrap" novalidate>
+                                <div class="form-group">
+
+                                    <div class="col-sm-12">
+                                        <input type="text" name="userFirstName" ng-model="firstName" ng-minlength="5"
+                                               ng-maxlength="20"
+                                               class="form-control"  placeholder="Имя" required >
+                                        <div ng-show="myForm.userFirstName.$dirty && myForm.userFirstName.$invalid">
+                                            <div class="errormesage" ng-show="myForm.userFirstName.$error.required">Это поле обязательно для заполнения</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+
+                                    <div class="col-sm-12">
+                                        <input name="userEmail" type="email" size="50" ng-model="email"
+                                               class="form-control required email" name="email" placeholder="E-mail"
+                                               required>
+                                        <div ng-show="myForm.userEmail.$dirty && myForm.userEmail.$invalid">
+                                            <div class="errormesage" ng-show="myForm.userEmail.$error.required">Это поле обязательно для заполнения</div>
+                                            <div class="errormesage" ng-show="myForm.userEmail.$error.email">Ваш e-mail неккоректный</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+
+                                    <div class="col-sm-12">
+                                        <textarea type="text" name="userMessage" ng-model="message" class="form-control" ng-minlength="15" ng-maxlength="600"
+                                                  placeholder="Сообщение" rows="6"
+                                                  required ></textarea>
+                                        <div ng-show="myForm.userMessage.$error" ng-if="myForm.userMessage.$dirty">
+                                            <div class="errormesage" ng-show="myForm.userMessage.$error.required">Это поле обязательно для заполнения</div>
+                                            <div class="errormesage" ng-show="myForm.userMessage.$error.minlength">Сообщение должно содержать не менее 15 символов</div>
+                                            <div class="errormesage" ng-show="myForm.userMessage.$error.maxlength">Сообщение не должно превышать 600 символов</div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="form-group">
+                                    <button type="submit"
+                                            ng-disabled="myForm.userFirstName.$dirty && myForm.userFirstName.$invalid ||
+                                            myForm.userEmail.$dirty && myForm.userEmail.$invalid || myForm.userMessage.$invalid"
+                                            class="btn btn-primary send-btn">Отправить</button>
+                                </div>
+
+                            </form>
+                        </div>
+
+
+                    </div>
+                    <div class="col-xs-12 col-md-5 col-sm-12">
+                        <h3 class="text-align-center">Контактные данные</h3>
+                        <div class="jumbotron">
+                                        <span>
+                                            <strong><abbr title="Телефон">Мобильный</abbr></strong> 8(999) 816-80-54
+                                            <br/>
+                                            <strong><abbr title="Skype">Skype</abbr></strong> radik_verstal <br/>
+
+                                        </span>
+                                        <span>
+                                            <strong>Email:</strong> <a href="mailto:#">radik.machete@gmail.com</a>
+                                            <br/>
+                                            <strong>website</strong> <a href="www.radikportfolio.ru">www.radikportfolio.ru</a>
+                                        </span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+
+        </div>
+    </div>
+</div>
+<!--contact-->

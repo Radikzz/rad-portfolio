@@ -1,0 +1,356 @@
+/* app css stylesheet */
+.ng-scope,
+{
+  height: 100%;
+}
+.menu {
+  list-style: none;
+  border-bottom: 0.1em solid black;
+  margin-bottom: 2em;
+  padding: 0 0 0.5em;
+}
+.menu:before {
+  content: "[";
+}
+.menu:after {
+  content: "]";
+}
+.menu > li {
+  display: inline;
+}
+.menu > li:before {
+  content: "|";
+  padding-right: 0.3em;
+}
+.menu > li:nth-child(1):before {
+  content: "";
+  padding: 0;
+}
+.display_ib {
+  display: inline-block;
+}
+h1, h2, h3, h4, h5, h6 {}
+
+.my-skills h3 {
+  font-size: 1.3rem;
+  margin-top: 0 !important;
+}
+.bg-row-about h1,
+.about p {
+  color: #ffffff;
+}
+.bg-row-about h1 {
+  text-align: center;
+}
+.about h1 {
+  font-size: 32px !important;
+  outline: 3px solid #ffffff;
+  padding: 10px 15px;
+  display: inline;
+}
+.header-title {
+
+  width: 100%;
+}
+.about .header-title {
+  display: flex;
+  justify-content: center;
+  margin-top: 120px;
+}
+
+.bg-row-about {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  z-index: 1;
+  background: white;
+}
+.about p {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: bolder;
+  margin-top: 90px;
+  margin-bottom: 20px;
+}
+.my-skills {
+  display: block;
+}
+.my-skills h2,
+.my-skills h3 {
+  text-align: center;
+}
+.bg-row-about {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  z-index: 1;
+background: url("../app/bower_components/html5-boilerplate/dist/img/lay-bg-fon.png") transparent no-repeat scroll 0% 0% /cover;
+  background-blend-mode: multiply;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+footer {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  float: left;
+}
+.html5 {
+  background-image: url("../app/bower_components/html5-boilerplate/dist/img/HTML5.png");
+  background-position: center;
+}
+.css3 {
+  background-image: url("../app/bower_components/html5-boilerplate/dist/img/css3.png");
+}
+.jscript {
+  background-image: url("../app/bower_components/html5-boilerplate/dist/img/jscript.png");
+}
+.angular {
+  background-image: url("../app/bower_components/html5-boilerplate/dist/img/angular.png");
+}
+.backbone {
+  background-image: url("../app/bower_components/html5-boilerplate/dist/img/prog-backbonejs.png");
+}
+.sass {
+  background-image: url("../app/bower_components/html5-boilerplate/dist/img/sass.png");
+}
+.jqy {
+  background-image: url("../app/bower_components/html5-boilerplate/dist/img/jqy.png");
+}
+.jqy-ui {
+  background-image: url("../app/bower_components/html5-boilerplate/dist/img/jquery-ui.png");
+}
+.git {
+  background-image: url("../app/bower_components/html5-boilerplate/dist/img/gt.png");
+}
+.njs {
+  background-image: url("../app/bower_components/html5-boilerplate/dist/img/nodejs.png");
+}
+.npm {
+  background-image: url("../app/bower_components/html5-boilerplate/dist/img/npm.png");
+}
+.bower {
+  background-image: url("../app/bower_components/html5-boilerplate/dist/img/bower-64.png");
+}
+.gulp {
+  background-image: url("../app/bower_components/html5-boilerplate/dist/img/gulp_med.png");
+}
+.idea {
+  background-image: url("../app/bower_components/html5-boilerplate/dist/img/idea.png");
+}
+.webstorm {
+  background-image: url("../app/bower_components/html5-boilerplate/dist/img/webstorm.png");
+}
+.react {
+  background-image: url("../app/bower_components/html5-boilerplate/dist/img/reactjs.png");
+}
+.jsn {
+  background-image: url("../app/bower_components/html5-boilerplate/dist/img/json64.png");
+}
+.rwd {
+  background-image: url("../app/bower_components/html5-boilerplate/dist/img/rwd.png");
+}
+.rfaces {
+  background-image: url("../app/bower_components/html5-boilerplate/dist/img/richfaces_icon_64px.gif");
+}
+.bootstr {
+  background-image: url("../app/bower_components/html5-boilerplate/dist/img/Boostrap.png");
+}
+.montage {
+  background-image: url("../app/bower_components/html5-boilerplate/dist/img/Montage.png");
+}
+.wordpress {
+  background-image: url("../app/bower_components/html5-boilerplate/dist/img/wordpress64.png");
+}
+.drupal {
+  background-image: url("../app/bower_components/html5-boilerplate/dist/img/drupal.png");
+}
+.magento {
+  background-image: url("../app/bower_components/html5-boilerplate/dist/img/magento64.png");
+}
+.prestashop {
+  background-image: url("../app/bower_components/html5-boilerplate/dist/img/prestashop.png");
+}
+.ecwid {
+  background-image: url("../app/bower_components/html5-boilerplate/dist/img/ecwid.png");
+}
+.sql {
+  background-image: url("../app/bower_components/html5-boilerplate/dist/img/sql-64.png");
+}
+.php {
+  background-image: url("../app/bower_components/html5-boilerplate/dist/img/php_64.png");
+}
+.pshop {
+  background-image: url("../app/bower_components/html5-boilerplate/dist/img/fshop.png");
+}
+.Ai {
+  background-image: url("../app/bower_components/html5-boilerplate/dist/img/AI.png");
+}
+.skils-block {
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  float: left;
+  width: 64px;
+  height: 64px;
+  clear: both;
+  cursor: pointer;
+}
+.logo-box-title {
+  float: left;
+  display: block;
+  width: 100%;
+}
+.logo-box {
+  margin: 10px 10px;
+  max-width: 64px;
+  display: inline-block;
+}
+.services {
+  height: 300px;
+  position: relative;
+  padding-top: 20px;
+  display: block;
+  background: #BEEDFF;
+}
+ul li, ol {
+   list-style-type: none !important;
+}
+.web-ico {
+  display: inline-block;
+  background: url("../app/bower_components/html5-boilerplate/dist/img/web-ico.png");
+  width: 90px;
+  height: 90px;
+}
+.chart-ico {
+  display: inline-block;
+  background-image: url("../app/bower_components/html5-boilerplate/dist/img/chart-ico.png");
+  width: 90px;
+  height: 90px;
+}
+.hours247-ico {
+  display: inline-block;
+  background-image: url("../app/bower_components/html5-boilerplate/dist/img/247-ico.png");
+  width: 90px;
+  height: 90px;
+}
+.cms-ico {
+  display: inline-block;
+  background-image: url("../app/bower_components/html5-boilerplate/dist/img/CMS-ico.png");
+  width: 90px;
+  height: 90px;
+}
+.people-ico {
+  display: inline-block;
+  background-image: url("../app/bower_components/html5-boilerplate/dist/img/people-ico.png");
+  width: 90px;
+  height: 90px;
+}
+.adm-ico {
+  display: inline-block;
+  background-image: url("../app/bower_components/html5-boilerplate/dist/img/adm-ico.png");
+  width: 90px;
+  height: 90px;
+}
+.nav-tabs {
+  border-bottom: none !important;
+  /*outline: 1px solid white;*/
+}
+.nav-tabs > li > a {
+  border-radius: 0 !important;
+  border: none !important;
+}
+.nav-tabs > li.active > a {
+  border-width: 0 !important;
+  border-style: none !important;
+  background: transparent;
+  color: #35537B;
+  text-decoration: underline;
+}
+.services  .nav > li > a:hover {
+  background: transparent !important;
+  color: #35537B !important;
+  cursor: pointer;
+}
+.nav-tabs > li.active > a:focus {
+  cursor: pointer;
+  background: none;
+}
+.services a {
+  color: #222222;
+}
+/*Menu style*/
+/*---------------------------------------------------*/
+.navbar-inverse {
+  background-color: rgba(24, 128, 185, 0.55) !important;
+  -webkit-box-shadow: 0 7px 6px -6px #777;
+  -moz-box-shadow: 0 7px 6px -6px #777;
+  box-shadow: 0 7px 6px -6px #777;
+  border: none !important;
+}
+div#responsive-menu ul.nav li > a {
+  font-size: 1.2em !important;
+  color: #ffffff !important;
+}
+div#responsive-menu ul.nav li > a:hover {
+  color: #00DBFF !important;
+  background: transparent !important;
+}
+div#responsive-menu ul.nav li > a:focus {
+  color: #00DBFF !important;
+}
+/*------------------ icon style -----------------------*/
+.phone-icon, .email-icon, .skype-icon, .twitter-icon, .whatsup-icon, .facebook-icon, .google-icon {
+  width: 48px;
+  margin: 5px;
+}
+.contact {
+  position: relative;
+}
+.form-wrap input[type="text"], .form-wrap input[type="email"], .form-wrap textarea {
+
+  padding: 0px 0px 0px 5px;
+  border: 1px solid #C5E2FF;
+  background: #FBFBFB;
+  outline: 0;
+  -webkit-box-shadow:inset 0px 1px 6px #ECF3F5;
+  box-shadow: inset 0px 1px 6px #ECF3F5;
+  font: 200 12px/25px Arial, Helvetica, sans-serif;
+  height: 30px;
+  line-height:15px;
+  margin: 2px 6px 16px 0px;
+}
+.form-wrap textarea{
+  height:100px;
+  padding: 5px 0px 0px 5px;
+  width: 60%;
+}
+.errormesage {
+  display:inline-block;
+  vertical-align:top;
+  color: red;
+  margin-top: 5px;
+}
+#slides_control > div{
+  height: 200px;
+}
+img{
+  margin:auto;
+  width: 400px;
+}
+#slides_control {
+  position:absolute;
+  width: 400px;
+  left:50%;
+  top:20px;
+  margin-left:-200px;
+}
+.flexslider-container {
+  height: 300px;
+}
+.icon-container {
+  width: 900px;
+  margin: 0 auto;
+}
+

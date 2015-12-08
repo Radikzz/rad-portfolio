@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="ru" ng-app="myApp" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="ru" ng-app="myApp" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="ru" ng-app="myApp" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="ru" ng-app="myApp"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Портфолио|Front-end разработчик</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Istok Web">
+  <link rel="stylesheet" href="bower_components/html5-boilerplate/dist/css/bootstrap.css"/>
+  <link rel="stylesheet" href="bower_components/html5-boilerplate/dist/css/normalize.css">
+  <!--<link rel="stylesheet" href="bower_components/html5-boilerplate/dist/css/main.css">-->
+
+  <link rel="stylesheet" href="bower_components/html5-boilerplate/dist/css/mystyle.css"/>
+  <link rel="stylesheet" href="app.css">
+  <link rel="stylesheet" href="bower_components/flexslider/flexslider.css"/>
+
+
+
+
+
+</head>
+<body>
+
+  <div class="navbar navbar-inverse" id="ha-header">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#responsive-menu">
+          <span class="sr-only">Откыть навигацию</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse" id="responsive-menu">
+        <ul class="nav navbar-nav" id="nav">
+
+          <li class="current"><a href="#/homepage">Обо Мне</a></li>
+          <li><a href="#/myportfolio">Мое портфолио</a></li>
+          <li><a href="#/services">Услуги</a></li>
+          <li><a href="#/contacts">Мои контакты</a></li>
+        </ul>
+      </div>
+    </div>
+    </div>
+
+
+
+  <div ng-view>
+
+  </div>
+  <footer class="panel-footer">
+    <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-md-8 col-sm-12">
+            <div class="container container-fixed">
+              <p>Copyright &copy; 2015 Z.Radik. Все права защищены.</p>
+            </div>
+          </div>
+        </div>
+    </div>
+  </footer>
+
+
+
+  <script src="bower_components/angular/angular.min.js"></script>
+  <script src="bower_components/angular-route/angular-route.min.js"></script>
+  <script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+  <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+  <script src="app.js"></script>
+  <script src="tab.js"></script>
+  <script src="homepage/homepageCtrl.js"></script>
+  <script src="myportfolio/myPortfolioCtrl.js"></script>
+
+  <script src="services/servicesCtrl.js"></script>
+  <script src="contacts/contactsCtrl.js"></script>
+  <script src="validateform.js"></script>
+  <script src="sendmail.js"></script>
+  <script src="bower_components/angular-animate/angular-animate.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="bower_components/jquery/dist/jquery.js"></script>
+  <script src="bower_components/html5-boilerplate/dist/js/vendor/modernizr-2.8.3.min.js"></script>
+  <script src="components/version/version.js"></script>
+  <script src="components/version/version-directive.js"></script>
+  <script src="components/version/interpolate-filter.js"></script>
+
+
+</body>
+</html>

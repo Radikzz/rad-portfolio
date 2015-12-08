@@ -1,0 +1,17 @@
+{
+  "name": "radikportfolio.ru",
+  "description": "A starter project for AngularJS",
+  "version": "0.0.1",
+  "homepage": "http://radikportfolio.ru",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "angular": "~1.4.0",
+    "angular-route": "~1.4.0",
+    "angular-loader": "~1.4.0",
+    "angular-mocks": "~1.4.0",
+    "html5-boilerplate": "~5.2.0",
+    "angular-slick": "~0.2.1",
+    "angular-bootstrap": "~0.14.3"
+  }
+}
