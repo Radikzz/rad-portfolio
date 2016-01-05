@@ -1,4 +1,11 @@
 /* app css stylesheet */
+@import url(https://fonts.googleapis.com/css?family=Roboto&subset=latin,cyrillic-ext);
+.block {
+  display: block;
+}
+.float_left {
+  float: left;
+}
 .ng-scope,
 {
   height: 100%;
@@ -47,6 +54,7 @@ h1, h2, h3, h4, h5, h6 {}
   outline: 3px solid #ffffff;
   padding: 10px 15px;
   display: inline;
+  font-family: 'Roboto', sans-serif !important;
 }
 .header-title {
 
@@ -88,10 +96,11 @@ h1, h2, h3, h4, h5, h6 {}
 background: url("../app/bower_components/html5-boilerplate/dist/img/lay-bg-fon.png") transparent no-repeat scroll 0% 0% /cover;
   background-blend-mode: multiply;
   background-color: rgba(0, 0, 0, 0.4);
+  height: 450px;
 }
 footer {
   display: block;
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100%;
   float: left;
@@ -283,7 +292,7 @@ ul li, ol {
 /*Menu style*/
 /*---------------------------------------------------*/
 .navbar-inverse {
-  background-color: rgba(24, 128, 185, 0.55) !important;
+  background-color: rgba(79, 143, 0, 0.6) !important;
   -webkit-box-shadow: 0 7px 6px -6px #777;
   -moz-box-shadow: 0 7px 6px -6px #777;
   box-shadow: 0 7px 6px -6px #777;
@@ -310,20 +319,20 @@ div#responsive-menu ul.nav li > a:focus {
 }
 .form-wrap input[type="text"], .form-wrap input[type="email"], .form-wrap textarea {
 
-  padding: 0px 0px 0px 5px;
+  padding: 0 0 0 5px;
   border: 1px solid #C5E2FF;
   background: #FBFBFB;
   outline: 0;
-  -webkit-box-shadow:inset 0px 1px 6px #ECF3F5;
-  box-shadow: inset 0px 1px 6px #ECF3F5;
+  -webkit-box-shadow:inset 01px 6px #ECF3F5;
+  box-shadow: inset 0 1px 6px #ECF3F5;
   font: 200 12px/25px Arial, Helvetica, sans-serif;
   height: 30px;
   line-height:15px;
-  margin: 2px 6px 16px 0px;
+  margin: 2px 6px 16px 0;
 }
 .form-wrap textarea{
   height:100px;
-  padding: 5px 0px 0px 5px;
+  padding: 5px 0 0 5px;
   width: 60%;
 }
 .errormesage {
@@ -353,4 +362,103 @@ img{
   width: 900px;
   margin: 0 auto;
 }
-
+.lazy-wrap {
+  margin: 0 auto;
+  width: 1100px;
+  height: 450px;
+}
+.lazy-caousel-wrapper {
+  height: 450px !important;
+}
+.lazy-arrow {
+  width: 50px !important;
+  height: 50px !important;
+  border-radius: 25px !important;
+  background-color: #f8fcf7;
+}
+.lazy-element {
+  border: none !important;
+}
+.lazy-prev {
+  left: 1% !important;
+}
+.lazy-next {
+  right: 1% !important;
+}
+.ng-dirty {
+  border-color: red !important;
+  border-width: 2px !important;
+}
+.ng-valid {
+  border-color: #12a750 !important;
+  border-width: 2px !important;
+}
+input.ng-valid + span.correct::after,
+textarea.ng-valid + span.correct::after {
+  display: block;
+  content: "\2713";
+  color: #12a750 !important;
+  width: 10px;
+  height: 10px;
+}
+.form-wrap .form-control, .correct  {
+  float: left;
+}
+.correct {
+  display: inline-block;
+  float: left;
+}
+input.ng-valid + span.correct::after {
+  position: relative;
+  top: 10px;
+  height: 40px;
+}
+form.form-wrap textarea {
+  margin: 5px 6px 10px 0 !important;
+}
+textarea.ng-valid + span.correct::after {
+  position: relative;
+  top: 10px;
+  height: 40px;
+}
+#map {
+  width: 460px !important;
+  display: block;
+  float: right;
+}
+.ymaps-2-1-34-map {
+  width: 460px !important;
+  height: 300px !important;
+}
+.social_content {
+  padding: 20px;
+  overflow: hidden;
+  position: absolute;
+  bottom: 12%;
+}
+#map::after {
+  display: none !important;
+}
+.social_icoGroup {
+  width: 320px;
+  margin: 0 auto;
+}
+.fa {
+  margin: 0 10px;
+  cursor: pointer;
+}
+.fa-vk {
+  color: #4E729A;
+}
+.fa-linkedin-square {
+  color: #00669b;
+}
+.fa-jsfiddle {
+  color: #4679a4;
+}
+.fa-stack-overflow {
+  color: #f48024;
+}
+section.sub-portfolio-container .container {
+  width: 1100px;
+}

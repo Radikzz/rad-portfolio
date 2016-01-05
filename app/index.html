@@ -17,11 +17,12 @@
   <link rel="stylesheet" href="bower_components/html5-boilerplate/dist/css/mystyle.css"/>
   <link rel="stylesheet" href="app.css">
   <link rel="stylesheet" href="bower_components/flexslider/flexslider.css"/>
+  <link rel="stylesheet" href="bower_components/rl-lazy-carousel/dist/css/lazy-carousel.min.css"/>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
 
-
-
-
+  <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
 </head>
 <body>
 
@@ -86,6 +87,7 @@
 
 
 
+  <script src="bower_components/rl-lazy-carousel/dist/lazy-carousel.min.js"></script>
 
 
 
@@ -98,7 +100,34 @@
   <script src="components/version/version.js"></script>
   <script src="components/version/version-directive.js"></script>
   <script src="components/version/interpolate-filter.js"></script>
+  <script>
+    ymaps.ready(function () {
+      var myMap = new ymaps.Map('map', {
+                center: [55.751574, 37.573856],
+                zoom: 9
+              }, {
+                searchControlProvider: 'yandex#search'
+              }),
+              myPlacemark = new ymaps.Placemark(myMap.getCenter(), {
+                hintContent: 'Собственный значок метки',
+                balloonContent: 'Это красивая метка'
+              }, {
+                // Опции.
+                // Необходимо указать данный тип макета.
+                iconLayout: 'default#image',
+                // Своё изображение иконки метки.
+                iconImageHref: 'images/myIcon.gif',
+                // Размеры метки.
+                iconImageSize: [30, 42],
+                // Смещение левого верхнего угла иконки относительно
+                // её "ножки" (точки привязки).
+                iconImageOffset: [-3, -42]
+              });
 
+      myMap.geoObjects.add(myPlacemark);
+    });
+
+  </script>
 
 </body>
 </html>

@@ -10,13 +10,13 @@
                             <div>
                                 <h3 class="text-center">Обратная связь</h3>
                             </div>
-                            <form name="myForm" method="" ng-submit="" class="form-horizontal margin_auto form-wrap" novalidate>
+                            <form ng-controller="ctrlForm" name="myForm" method="" ng-submit="submit()" class="form-horizontal margin_auto form-wrap" novalidate>
                                 <div class="form-group">
 
                                     <div class="col-sm-12">
-                                        <input type="text" name="userFirstName" ng-model="firstName" ng-minlength="5"
+                                        <input type="text" name="userFirstName" ng-model="user.firstName" ng-minlength="5"
                                                ng-maxlength="20"
-                                               class="form-control"  placeholder="Имя" required >
+                                               class="form-control"  placeholder="Имя" required ><span class="correct"></span>
                                         <div ng-show="myForm.userFirstName.$dirty && myForm.userFirstName.$invalid">
                                             <div class="errormesage" ng-show="myForm.userFirstName.$error.required">Это поле обязательно для заполнения</div>
                                         </div>
@@ -25,9 +25,9 @@
                                 <div class="form-group">
 
                                     <div class="col-sm-12">
-                                        <input name="userEmail" type="email" size="50" ng-model="email"
-                                               class="form-control required email" name="email" placeholder="E-mail"
-                                               required>
+                                        <input name="userEmail" type="email" size="50" ng-model="user.email"
+                                               class="form-control required email" placeholder="E-mail"
+                                               required><span class="correct"></span>
                                         <div ng-show="myForm.userEmail.$dirty && myForm.userEmail.$invalid">
                                             <div class="errormesage" ng-show="myForm.userEmail.$error.required">Это поле обязательно для заполнения</div>
                                             <div class="errormesage" ng-show="myForm.userEmail.$error.email">Ваш e-mail неккоректный</div>
@@ -37,9 +37,9 @@
                                 <div class="form-group">
 
                                     <div class="col-sm-12">
-                                        <textarea type="text" name="userMessage" ng-model="message" class="form-control" ng-minlength="15" ng-maxlength="600"
+                                        <textarea type="text" name="userMessage" ng-model="user.message" class="form-control" ng-minlength="15" ng-maxlength="600"
                                                   placeholder="Сообщение" rows="6"
-                                                  required ></textarea>
+                                                  required ></textarea><span class="correct"></span>
                                         <div ng-show="myForm.userMessage.$error" ng-if="myForm.userMessage.$dirty">
                                             <div class="errormesage" ng-show="myForm.userMessage.$error.required">Это поле обязательно для заполнения</div>
                                             <div class="errormesage" ng-show="myForm.userMessage.$error.minlength">Сообщение должно содержать не менее 15 символов</div>
@@ -49,7 +49,7 @@
 
                                 </div>
                                 <div class="form-group">
-                                    <button type="submit"
+                                    <button type="submit" ng-click="submit()"
                                             ng-disabled="myForm.userFirstName.$dirty && myForm.userFirstName.$invalid ||
                                             myForm.userEmail.$dirty && myForm.userEmail.$invalid || myForm.userMessage.$invalid"
                                             class="btn btn-primary send-btn">Отправить</button>
@@ -77,6 +77,9 @@
                         </div>
 
                     </div>
+
+
+
                 </div>
             </div>
 
@@ -85,5 +88,19 @@
 
         </div>
     </div>
+    <div class="container">
+        <div id="map" style="width: 600px; height: 400px"></div>
+        <section class="social_content float_left">
+            <div class="block social_icoGroup">
+                <a href="http://vk.com/nopasaranfamily"><i class="fa fa-vk fa-4x"></i></a>
+                <a href="https://ru.linkedin.com/in/радик-зулькарнаев-382033102"><i class="fa fa-linkedin-square fa-4x"></i></a>
+                <a href="https://jsfiddle.net/Radik_Zu/b4ws5oq4/"><i class="fa fa-jsfiddle fa-4x"></i></a>
+                <a href="http://ru.stackoverflow.com/users/191527/radik-zu"><i class="fa fa-stack-overflow fa-4x"></i></a>
+
+            </div>
+
+        </section>
+    </div>
+
 </div>
 <!--contact-->

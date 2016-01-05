@@ -10,7 +10,9 @@ angular.module('myApp', [
     'myApp.myportfolio',
     'myApp.services',
     'myApp.contacts',
-    'myApp.tabCont'
+    'myApp.tabMenu',
+    'rl.lazy-carousel',
+    'myApp.sender'
 
 ]).
     config(['$routeProvider', function($routeProvider) {

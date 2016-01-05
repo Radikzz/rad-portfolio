@@ -1,13 +1,17 @@
-<div class="section-wrapper bg-row-my-portfolio">
-    <uib-carousel interval="carousel.interval" class="carousel-demo">
-        <uib-slide ng-repeat="slide in carousel.slides" active="slide.active">
-            <img ng-src="{{slide.image}}">
-            <div class="carousel-caption">
-                <h4>{{slide.text}}</h4>
-            </div>
-        </uib-slide>
-    </uib-carousel>
+<div class="section-wrapper bg-row-my-portfolio lazy-wrap">
+    <div lazy-carousel data-source="images_content/images_source.json">
 
-
-
+    </div>
 </div>
+<section class="sub-portfolio-container row">
+    <div class="container">
+        <div class="col-md-3">fghfghfghfghfghfghfghghfg</div>
+            <div class="ofset"></div>
+        <div class="col-md-3">fghfghfghfghfghfghfghghfg</div>
+            <div class="ofset"></div>
+        <div class="col-md-3">fghfghfghfghfghfghfghghfg</div>
+            <div class="ofset"></div>
+        <div class="col-md-3">fghfghfghfghfghfghfghghfg</div>
+    </div>
+
+</section>
