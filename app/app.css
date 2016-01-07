@@ -93,7 +93,7 @@ h1, h2, h3, h4, h5, h6 {}
   overflow: hidden;
   width: 100%;
   z-index: 1;
-background: url("../app/bower_components/html5-boilerplate/dist/img/lay-bg-fon.png") transparent no-repeat scroll 0% 0% /cover;
+background: url("bower_components/html5-boilerplate/dist/img/lay-bg-fon.png") transparent no-repeat scroll 0% 0% /cover;
   background-blend-mode: multiply;
   background-color: rgba(0, 0, 0, 0.4);
   height: 450px;
@@ -106,95 +106,95 @@ footer {
   float: left;
 }
 .html5 {
-  background-image: url("../app/bower_components/html5-boilerplate/dist/img/HTML5.png");
+  background-image: url("bower_components/html5-boilerplate/dist/img/HTML5.png");
   background-position: center;
 }
 .css3 {
-  background-image: url("../app/bower_components/html5-boilerplate/dist/img/css3.png");
+  background-image: url("bower_components/html5-boilerplate/dist/img/css3.png");
 }
 .jscript {
-  background-image: url("../app/bower_components/html5-boilerplate/dist/img/jscript.png");
+  background-image: url("bower_components/html5-boilerplate/dist/img/jscript.png");
 }
 .angular {
-  background-image: url("../app/bower_components/html5-boilerplate/dist/img/angular.png");
+  background-image: url("bower_components/html5-boilerplate/dist/img/angular.png");
 }
 .backbone {
-  background-image: url("../app/bower_components/html5-boilerplate/dist/img/prog-backbonejs.png");
+  background-image: url("bower_components/html5-boilerplate/dist/img/prog-backbonejs.png");
 }
 .sass {
-  background-image: url("../app/bower_components/html5-boilerplate/dist/img/sass.png");
+  background-image: url("bower_components/html5-boilerplate/dist/img/sass.png");
 }
 .jqy {
-  background-image: url("../app/bower_components/html5-boilerplate/dist/img/jqy.png");
+  background-image: url("bower_components/html5-boilerplate/dist/img/jqy.png");
 }
 .jqy-ui {
-  background-image: url("../app/bower_components/html5-boilerplate/dist/img/jquery-ui.png");
+  background-image: url("bower_components/html5-boilerplate/dist/img/jquery-ui.png");
 }
 .git {
-  background-image: url("../app/bower_components/html5-boilerplate/dist/img/gt.png");
+  background-image: url("bower_components/html5-boilerplate/dist/img/gt.png");
 }
 .njs {
-  background-image: url("../app/bower_components/html5-boilerplate/dist/img/nodejs.png");
+  background-image: url("bower_components/html5-boilerplate/dist/img/nodejs.png");
 }
 .npm {
-  background-image: url("../app/bower_components/html5-boilerplate/dist/img/npm.png");
+  background-image: url("bower_components/html5-boilerplate/dist/img/npm.png");
 }
 .bower {
-  background-image: url("../app/bower_components/html5-boilerplate/dist/img/bower-64.png");
+  background-image: url("bower_components/html5-boilerplate/dist/img/bower-64.png");
 }
 .gulp {
-  background-image: url("../app/bower_components/html5-boilerplate/dist/img/gulp_med.png");
+  background-image: url("bower_components/html5-boilerplate/dist/img/gulp_med.png");
 }
 .idea {
-  background-image: url("../app/bower_components/html5-boilerplate/dist/img/idea.png");
+  background-image: url("bower_components/html5-boilerplate/dist/img/idea.png");
 }
 .webstorm {
-  background-image: url("../app/bower_components/html5-boilerplate/dist/img/webstorm.png");
+  background-image: url("bower_components/html5-boilerplate/dist/img/webstorm.png");
 }
 .react {
-  background-image: url("../app/bower_components/html5-boilerplate/dist/img/reactjs.png");
+  background-image: url("bower_components/html5-boilerplate/dist/img/reactjs.png");
 }
 .jsn {
-  background-image: url("../app/bower_components/html5-boilerplate/dist/img/json64.png");
+  background-image: url("bower_components/html5-boilerplate/dist/img/json64.png");
 }
 .rwd {
-  background-image: url("../app/bower_components/html5-boilerplate/dist/img/rwd.png");
+  background-image: url("bower_components/html5-boilerplate/dist/img/rwd.png");
 }
 .rfaces {
-  background-image: url("../app/bower_components/html5-boilerplate/dist/img/richfaces_icon_64px.gif");
+  background-image: url("bower_components/html5-boilerplate/dist/img/richfaces_icon_64px.gif");
 }
 .bootstr {
-  background-image: url("../app/bower_components/html5-boilerplate/dist/img/Boostrap.png");
+  background-image: url("bower_components/html5-boilerplate/dist/img/Boostrap.png");
 }
 .montage {
-  background-image: url("../app/bower_components/html5-boilerplate/dist/img/Montage.png");
+  background-image: url("bower_components/html5-boilerplate/dist/img/Montage.png");
 }
 .wordpress {
-  background-image: url("../app/bower_components/html5-boilerplate/dist/img/wordpress64.png");
+  background-image: url("bower_components/html5-boilerplate/dist/img/wordpress64.png");
 }
 .drupal {
-  background-image: url("../app/bower_components/html5-boilerplate/dist/img/drupal.png");
+  background-image: url("bower_components/html5-boilerplate/dist/img/drupal.png");
 }
 .magento {
-  background-image: url("../app/bower_components/html5-boilerplate/dist/img/magento64.png");
+  background-image: url("bower_components/html5-boilerplate/dist/img/magento64.png");
 }
 .prestashop {
-  background-image: url("../app/bower_components/html5-boilerplate/dist/img/prestashop.png");
+  background-image: url("bower_components/html5-boilerplate/dist/img/prestashop.png");
 }
 .ecwid {
-  background-image: url("../app/bower_components/html5-boilerplate/dist/img/ecwid.png");
+  background-image: url("bower_components/html5-boilerplate/dist/img/ecwid.png");
 }
 .sql {
-  background-image: url("../app/bower_components/html5-boilerplate/dist/img/sql-64.png");
+  background-image: url("bower_components/html5-boilerplate/dist/img/sql-64.png");
 }
 .php {
-  background-image: url("../app/bower_components/html5-boilerplate/dist/img/php_64.png");
+  background-image: url("bower_components/html5-boilerplate/dist/img/php_64.png");
 }
 .pshop {
-  background-image: url("../app/bower_components/html5-boilerplate/dist/img/fshop.png");
+  background-image: url("bower_components/html5-boilerplate/dist/img/fshop.png");
 }
 .Ai {
-  background-image: url("../app/bower_components/html5-boilerplate/dist/img/AI.png");
+  background-image: url("bower_components/html5-boilerplate/dist/img/AI.png");
 }
 .skils-block {
   background-repeat: no-repeat;
@@ -228,37 +228,37 @@ ul li, ol {
 }
 .web-ico {
   display: inline-block;
-  background: url("../app/bower_components/html5-boilerplate/dist/img/web-ico.png");
+  background: url("bower_components/html5-boilerplate/dist/img/web-ico.png");
   width: 90px;
   height: 90px;
 }
 .chart-ico {
   display: inline-block;
-  background-image: url("../app/bower_components/html5-boilerplate/dist/img/chart-ico.png");
+  background-image: url("bower_components/html5-boilerplate/dist/img/chart-ico.png");
   width: 90px;
   height: 90px;
 }
 .hours247-ico {
   display: inline-block;
-  background-image: url("../app/bower_components/html5-boilerplate/dist/img/247-ico.png");
+  background-image: url("bower_components/html5-boilerplate/dist/img/247-ico.png");
   width: 90px;
   height: 90px;
 }
 .cms-ico {
   display: inline-block;
-  background-image: url("../app/bower_components/html5-boilerplate/dist/img/CMS-ico.png");
+  background-image: url("bower_components/html5-boilerplate/dist/img/CMS-ico.png");
   width: 90px;
   height: 90px;
 }
 .people-ico {
   display: inline-block;
-  background-image: url("../app/bower_components/html5-boilerplate/dist/img/people-ico.png");
+  background-image: url("bower_components/html5-boilerplate/dist/img/people-ico.png");
   width: 90px;
   height: 90px;
 }
 .adm-ico {
   display: inline-block;
-  background-image: url("../app/bower_components/html5-boilerplate/dist/img/adm-ico.png");
+  background-image: url("bower_components/html5-boilerplate/dist/img/adm-ico.png");
   width: 90px;
   height: 90px;
 }

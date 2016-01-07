@@ -5,10 +5,10 @@ angular.module('myApp.services', ['ngRoute', 'ui.bootstrap', 'ui.router', 'ngAni
     .config(['$routeProvider', function($routeProvider) {
         $routeProvider.when('/services', {
             templateUrl: 'services/services.html',
-            controller: 'servicesCtrl'
+            controller: 'ServicesPageCtrl'
         });
     }])
 
-    .controller('servicesCtrl', [function() {
+    .controller('ServicesPageCtrl', [function() {
 
     }]);

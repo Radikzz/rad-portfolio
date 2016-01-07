@@ -2,7 +2,6 @@
 //Определение уровней приложений. модулей и зависимостей
 
 angular.module('myApp', [
-    'ngRoute',
     'ngAnimate',
     'ui.bootstrap',
     'ui.router',
