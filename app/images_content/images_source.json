@@ -1,15 +1,15 @@
 {
   "items" : [
     {
-      "img": "../app/images_content/images/rt.png",
+      "img": "images_content/images/rt.png",
       "alt" : "Верстка макета для телеканала RT"
     },
     {
-      "img": "../app/images_content/images/adminPanel.png",
+      "img": "images_content/images/adminPanel.png",
       "alt" : "Верстка панели администратора"
     },
     {
-      "img": "../app/images_content/images/landing_1.png",
+      "img": "images_content/images/landing_1.png",
       "alt" : "Верстка Landing Page"
     }
   ]

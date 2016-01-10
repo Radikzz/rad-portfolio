@@ -1,4 +1,4 @@
-'use strict';
+/*'use strict';
 
 angular.module('myApp.contacts', ['ngRoute'])
 
@@ -11,4 +11,4 @@ angular.module('myApp.contacts', ['ngRoute'])
 
     .controller('contactsCtrl', [function() {
 
-    }]);
+    }]);*/
