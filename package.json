@@ -1,9 +1,10 @@
 {
-  "name": "angular-seed",
+  "name": "Сайт портфолио frontend developer radikportfolio.ru",
+  "author": "Зулькарнаев Радик",
   "private": true,
-  "version": "0.0.0",
-  "description": "A starter project for AngularJS",
-  "repository": "https://github.com/angular/angular-seed",
+  "version": "0.0.1",
+  "description": "start up Project test-release",
+  "repository": "https://github.com/Radikzz/rad-portfolio",
   "license": "MIT",
   "devDependencies": {
     "bower": "^1.3.1",
